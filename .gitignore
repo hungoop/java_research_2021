@@ -29,3 +29,17 @@ test_reactive_streams/.idea/vcs.xml
 test_reactive_streams/target/classes/Example.class
 test_reactive_streams/target/classes/st/test/rts/Consumer.class
 test_reactive_streams/target/classes/st/test/rts/Student.class
+test_multithreading/.idea/compiler.xml
+test_multithreading/.idea/jarRepositories.xml
+test_multithreading/.idea/misc.xml
+test_multithreading/.idea/vcs.xml
+test_multithreading/target/classes/AppTest.class
+test_multithreading/target/classes/TestCompletableFuture.class
+test_multithreading/target/classes/st/test/Calculator.class
+test_multithreading/target/classes/st/test/Calculator1.class
+test_project_reactor/.idea/compiler.xml
+test_project_reactor/.idea/jarRepositories.xml
+test_project_reactor/.idea/misc.xml
+test_project_reactor/.idea/vcs.xml
+test_project_reactor/target/classes/AppTest.class
+test_project_reactor/target/classes/st/test/pr/Consumer.class
