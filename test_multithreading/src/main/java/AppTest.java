@@ -1,0 +1,29 @@
+import st.test.Calculator;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.*;
+
+public class AppTest {
+    public static void main(String[] args) throws ExecutionException, InterruptedException, TimeoutException {
+        // Create thread pool using Executor Framework
+        ExecutorService executor = Executors.newFixedThreadPool(5);
+
+        List<Future<Integer>> list = new ArrayList<Future<Integer>>();
+
+        for (int i = 0; i < 10; i++) {
+            // Create new Calculator object
+            Calculator c = new Calculator(i, i + 1);
+
+            list.add(executor.submit(c));
+
+        }
+
+        for (Future f : list) {
+            System.out.println(f.get(3, TimeUnit.SECONDS));
+        }
+
+        executor.shutdown();
+
+    }
+}
