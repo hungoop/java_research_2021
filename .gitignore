@@ -16,3 +16,16 @@ test_lambda_expression/target/classes/test1/SayHello.class
 test_lambda_expression/target/classes/test1/SayHello1.class
 test_lambda_expression/target/classes/test1/SayHelloImpl.class
 test_lambda_expression/target/classes/test2/Student.class
+test_jackson/.idea/compiler.xml
+test_jackson/.idea/jarRepositories.xml
+test_jackson/.idea/misc.xml
+test_jackson/.idea/vcs.xml
+test_jackson/target/classes/AppTest.class
+test_jackson/target/classes/Student.class
+test_reactive_streams/.idea/compiler.xml
+test_reactive_streams/.idea/jarRepositories.xml
+test_reactive_streams/.idea/misc.xml
+test_reactive_streams/.idea/vcs.xml
+test_reactive_streams/target/classes/Example.class
+test_reactive_streams/target/classes/st/test/rts/Consumer.class
+test_reactive_streams/target/classes/st/test/rts/Student.class
