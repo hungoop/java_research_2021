@@ -1,0 +1,30 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+        <bean id="shape" class="st.test.Circle">
+        </bean>
+
+        <bean id="drawing" class="st.test.Drawing">
+        </bean>
+        <bean id="drawing" class="st.test.Drawing">
+            <constructor-arg ref="shape" />
+        </bean>
+
+        <bean id="drawing" class="st.test.Drawing">
+            <property name="shape" ref="shape" />
+        </bean>-->
+
+    <!--
+    <bean id="generalClazz" class="st.test1.Clazz" abstract="true">
+        <property name="schoolName" value="Tam Quan Nam" />
+    </bean>
+
+    <bean id="clazzA" class="st.test1.Clazz" parent="generalClazz">
+    </bean>
+
+    <bean id="clazzB" class="st.test1.Clazz" parent="generalClazz">
+    </bean>
+    -->
+
+</beans>

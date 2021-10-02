@@ -1,0 +1,37 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    <bean id="studenta" class="st.test3.Student">
+        <constructor-arg value="A" />
+    </bean>
+
+    <bean id="clazz" class="st.test3.Clazz">
+        <constructor-arg type="st.test3.Student" ref="studenta" />
+    </bean>
+    -->
+
+    <bean id="clazz" class="st.test3.Clazz">
+        <constructor-arg type="java.util.List">
+            <list>
+                <ref bean="studenta"/>
+                <ref bean="studentb"/>
+                <ref bean="studentc"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="studenta" class="st.test3.Student">
+        <constructor-arg value="A" />
+    </bean>
+
+    <bean id="studentb" class="st.test3.Student">
+        <constructor-arg value="B" />
+    </bean>
+
+    <bean id="studentc" class="st.test3.Student">
+        <constructor-arg value="C" />
+    </bean>
+
+</beans>
