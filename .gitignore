@@ -43,3 +43,14 @@ test_project_reactor/.idea/misc.xml
 test_project_reactor/.idea/vcs.xml
 test_project_reactor/target/classes/AppTest.class
 test_project_reactor/target/classes/st/test/pr/Consumer.class
+test_spring_basic/target/classes/AppTest.class
+test_spring_basic/target/classes/spring.xml
+test_spring_basic/target/classes/spring_bk_t1t2.xml___bk
+test_spring_basic/target/classes/spring_bk_t2.xml_bk
+test_spring_basic/target/classes/st/test/Circle.class
+test_spring_basic/target/classes/st/test/Drawing.class
+test_spring_basic/target/classes/st/test/Shape.class
+test_spring_basic/target/classes/st/test1/Clazz.class
+test_spring_basic/target/classes/st/test2/HelloWorld.class
+test_spring_basic/target/classes/st/test3/Clazz.class
+test_spring_basic/target/classes/st/test3/Student.class
